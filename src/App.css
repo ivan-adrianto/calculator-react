@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+html {
+    background-color: #2D6A4F;
+    font-family: 'Roboto';
+}
+
+#root {
+    background-color: #2D6A4F;
+} 
+
+/* Calculator & Phone */
+.mockup {
+    position: absolute;
+    left: 200px;
+    top: 75px;
+}
+
+.phone {
+    position: absolute;
+}
+
+.phone img{
+    z-index: 2;
+    height: 585.25px;
+    position: absolute;
+}
+
+.result p {
+    font-size: 300px;
+    text-align: right;
+    color: white;
+}
+
+.calcbutton {
+    z-index: 3;
+    position: absolute;
+    top: 143px;
+    left: 20px;
+}
+
+.calcbutton p{
+    font-size: 27px;
+    position: absolute; 
+    top: -12px;
+    left: 8px;
+    z-index: 5;
+    height: 40px;
+    text-align: right;
+}
+
+.calcbutton h1 {
+    font-size: 16.2px;
+    color: rgb(182, 179, 179);
+    position: relative;
+    top: -30px;
+    left: 7px;
+    width: 280px;
+    z-index: 6;
+}
+
+.buttons {
+    position: absolute;
+    top: 27px;
+    
+    /* margin-left: -9px;
+    margin-top: -48px; */
+}
+
+button {
+    width: 53.64px;
+    height: 55.86px;
+    color: white;
+    background-color: #2D6A4F;
+    margin: 0px;
+    border-radius: 0px !important;
+}
+
+.number {
+    color: #2D6A4F;
+    background-color: #74C69D;
+    font-size: 19.125px;
+    font-weight: bold;
+    border-color: #1B4332;
+}
+
+.operator {
+    background-color: #2D6A4F;
+    font-size: 19.125px;
+    font-weight: bold;
+    border-color: #1B4332;
+}
+
+.operator img {
+    width: 20px;
+}
+
+.mockup-menu img {
+    position: relative;
+    top: 453px;
+    right: -40px;
+    width: 9px;
+    z-index: 7;
+    margin: 1px 24px;
+}
+
+
+/* Let's Calc Image */
+.letscalc { 
+    background-color: #2D6A4F;
+}
+.letscalc img{
+    margin-left: 500px;
+    padding-left: 100px;
+    margin-top: 80px;
+    z-index: 4;
+    width: 600px;
+}
