@@ -110,7 +110,7 @@ class App extends Component {
                 try {
                     this.setState({
                         prevOperation: this.state.result,
-                        result: (singkatan || '') + ''
+                        result: (singkatan) + ''
                     })
                 } catch (e) {
                     this.setState({
