@@ -161,9 +161,9 @@ class App extends Component {
                             <TombolAngka onClick={this.onClick} />
                         </div>
                         <div className="mockup-menu">
-                            <img src={home} alt='home'></img>
-                            <img src={optionss} alt='option'></img>
-                            <img src={back} alt='back'></img>
+                            <img className='home' src={home} alt='home'></img>
+                            <img className='option' src={optionss} alt='option'></img>
+                            <img className='back' src={back} alt='back'></img>
                         </div>
                     </div>
                 </Row>

@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
-
 html {
     background-color: #2D6A4F;
     font-family: 'Roboto';
@@ -7,9 +6,11 @@ html {
 
 #root {
     background-color: #2D6A4F;
-} 
+}
+
 
 /* Calculator & Phone */
+
 .mockup {
     position: absolute;
     left: 200px;
@@ -20,7 +21,7 @@ html {
     position: absolute;
 }
 
-.phone img{
+.phone img {
     z-index: 2;
     height: 585.25px;
     position: absolute;
@@ -39,9 +40,9 @@ html {
     left: 20px;
 }
 
-.calcbutton p{
+.calcbutton p {
     font-size: 27px;
-    position: absolute; 
+    position: absolute;
     top: -12px;
     left: 8px;
     z-index: 5;
@@ -62,7 +63,6 @@ html {
 .buttons {
     position: absolute;
     top: 27px;
-    
     /* margin-left: -9px;
     margin-top: -48px; */
 }
@@ -101,15 +101,31 @@ button {
     right: -40px;
     width: 9px;
     z-index: 7;
-    margin: 1px 24px;
+    /* margin: 1px 24px; */
+}
+
+.home {
+    position: relative;
+    left: 123px;
+}
+
+.back {
+    position: relative;
+    left: 180px;
+}
+
+.option {
+    position: relative;
 }
 
 
 /* Let's Calc Image */
-.letscalc { 
+
+.letscalc {
     background-color: #2D6A4F;
 }
-.letscalc img{
+
+.letscalc img {
     margin-left: 500px;
     padding-left: 100px;
     margin-top: 80px;
