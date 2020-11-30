@@ -1,2 +1,4 @@
-Kalau Mas Frey lihat ini, "Mas, ini bukan tugas yang dikumpulkan ya, hehe. Terima kasih."
 ### Let's Calc!
+
+A simple calculator using basic features of react.
+link to the web app: ivan-adrianto.github.io/calculator-react
